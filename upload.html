@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Rental Upload</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<form action="uploadimage" method="post" enctype="multipart/form-data">
+    <label for="image">Upload Image:</label>
+    <input type="file" id="image" name="image" accept="image/*" required>
+
+    <label for="address">Place:</label>
+    <input type="text" id="place" name="place" required>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="address" required>
+
+    <label for="price">Rental Price:</label>
+    <input type="number" id="price" name="price" min="0" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>

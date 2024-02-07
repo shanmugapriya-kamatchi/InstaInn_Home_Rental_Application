@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InstInn</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class=" shadow-xl rounded-2xl bg-white fixed top-0 w-full h-32">
+    <div class="flex flex-row m-10 justify-between">
+        <img class="w-48" src="images/Black and White Typographic Restaurant Logo (1).png" alt="">
+        <div class="search-container mt-3">
+            <input class="shadow-xl" type="text" id="searchInput" placeholder="Enter your search">
+            <button class="shadow-xl" id="searchButton" onclick="performSearch()">Search</button>
+        </div>
+        <div class="flex items-center">
+            <a th:href="@{/upload}"
+               class="mt-4 mr-9 font hvr">rent your home</a>
+            <div class="mt-4 user font"><span>A</span></div>
+        </div>
+
+    </div>
+</div>
+<div class="ml-5 mr-5 shadow-xl rounded-2xl flex justify-between mt-44">
+    <div class="flex flex-col items-center ml-10">
+        <img class="w-10" src="images/beach.jpg" alt="">
+        <p class="font">beach</p>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="w-10" src="images/mansion.jpg" alt="">
+        <p class="font">mansion</p>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="w-10" src="images/6b639c8d-cf9b-41fb-91a0-91af9d7677cc.jpg" alt="">
+        <p class="font">golf</p>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="w-10" src="images/tinyhomes.jpg" alt="">
+        <p class="font">tiny homes</p>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="w-10" src="images/farms.jpg" alt="">
+        <p class="font">farms</p>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="w-10" src="images/islands.jpg" alt="">
+        <p class="font">islands</p>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="w-10" src="images/lakefront.jpg" alt="">
+        <p class="font">lakefront</p>
+    </div>
+    <div class="flex flex-col items-center">
+        <img class="w-10" src="images/pools.jpg" alt="">
+        <p class="font">pools</p>
+    </div>
+    <div class="flex flex-col items-center ">
+        <img class="w-10" src="images/tree house.jpg" alt="">
+        <p class="font">Tree house</p>
+    </div>
+    <div class="flex flex-col items-center ">
+        <img class="w-10" src="images/rooms.jpg" alt="">
+        <p class="font">Rooms</p>
+    </div>
+    <div class="flex flex-col items-center mr-10">
+        <img class="w-10" src="images/camping.jpg" alt="">
+        <p class="font">Camping</p>
+    </div>
+
+
+</div>
+<div class=" flex flex-col">
+    <div class="flex m-9 shadow-2xl h-96">
+        <div class="flex-1" style="overflow: hidden;">
+            <img src="images/home1.jpg" alt="">
+        </div>
+        <div class="flex-1">
+            <p>jfhwiugnekw iowengkew, gjbrg,
+            </p>
+        </div>
+    </div>
+    <div class="flex m-9 shadow-2xl h-96">
+        <div class="flex-1" style="overflow: hidden; ">
+            <img src="images/home2.webp" alt="">
+        </div>
+        <div class="flex-1 text-white " style="background-color: #ffc300;">
+            <p>jfhwiugnekw iowengkew, gjbrg,
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <div class="sec3 p-3 m-5 rounded-2xl shadow-2xl " style="background-color: #ffc300;">
+        <div class="m-20 flex flex-col gap-14 lg:flex-row">
+            <div class="flex-2 lg:w-96">
+                <p class="font text-5xl font-bold lg:text-2xl">InstaInn</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl"> with Insta, you can setup your own personal portfolio in minutes with dozen of premade, beautiful templates.</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl "> Made with &#x2764; for you</p>
+            </div>
+            <div class="flex-1">
+                <p class="font text-5xl font-bold lg:text-2xl ">Sitemap</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl"> Homepage</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl"> Pricing</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl"> Testimonials</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl"> Features</p>
+            </div>
+            <div class="flex-1">
+                <p class="font text-5xl font-bold lg:text-2xl ">Resourse</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">support </p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">contact</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">FAQ</p>
+            </div>
+            <div class="flex-1">
+                <p class="font text-5xl font-bold lg:text-2xl ">Company</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">about</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">customers</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">Blog</p>
+            </div>
+            <div class="flex-1">
+                <p class="font text-5xl font-bold lg:text-2xl ">Portfolios</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">Sarah Andrew</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">Mathew Higgins</p>
+                <p class="font text-3xl leading-normal  mt-5 lg:text-xl">Janice Dave</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sec3 p-3 m-5 rounded-2xl shadow-2xl flex justify-end justify-around" style="background-color: #ffc300;">
+    <div>
+        <p class="font">Company details | Terms and Conditions | Privacy Policy</p>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+        <path d="M 16 3 C 8.83 3 3 8.83 3 16 L 3 34 C 3 41.17 8.83 47 16 47 L 34 47 C 41.17 47 47 41.17 47 34 L 47 16 C 47 8.83 41.17 3 34 3 L 16 3 z M 37 11 C 38.1 11 39 11.9 39 13 C 39 14.1 38.1 15 37 15 C 35.9 15 35 14.1 35 13 C 35 11.9 35.9 11 37 11 z M 25 14 C 31.07 14 36 18.93 36 25 C 36 31.07 31.07 36 25 36 C 18.93 36 14 31.07 14 25 C 14 18.93 18.93 14 25 14 z M 25 16 C 20.04 16 16 20.04 16 25 C 16 29.96 20.04 34 25 34 C 29.96 34 34 29.96 34 25 C 34 20.04 29.96 16 25 16 z"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+        <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path>
+    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50">
+        <path d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848 c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588 l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"></path>
+    </svg>
+</div>
+</body>
+</html>
