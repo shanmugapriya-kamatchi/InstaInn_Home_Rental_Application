@@ -10,8 +10,8 @@ Welcome to the Home Rental Application project! This application allows users to
 
 ## Technologies Used
 
-- **Backend Framework**: Spring Boot
-- **Frontend Framework**: Thymeleaf
+- **Frontend**: React.js
+- **Backend**: Node.js, Express.js
 - **Database**: MySQL
 - **Authentication**: Spring Security
 - **Dependency Management**: Maven or Gradle
